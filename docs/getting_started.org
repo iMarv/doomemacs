@@ -465,7 +465,7 @@ With Emacs and Doom's dependencies installed, next is to install Doom Emacs
 itself:
 
 #+BEGIN_SRC bash
-git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 #+END_SRC
 
